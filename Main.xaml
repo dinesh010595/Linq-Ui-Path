@@ -102,7 +102,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,75.2</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,107.7 550,107.7 550,668.4</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.7 300,107.7 580,107.7 580,668.4</av:PointCollection>
         <x:Double x:Key="Height">869.6</x:Double>
         <x:Double x:Key="Width">701.60000000000014</x:Double>
       </scg:Dictionary>
@@ -1311,11 +1311,11 @@ Select tempDT.Rows.Add({a,z})
     <FlowStep x:Name="__ReferenceID0">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">450,668.4</av:Point>
+          <av:Point x:Key="ShapeLocation">480,668.4</av:Point>
           <av:Size x:Key="ShapeSize">200,83.2</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Compare Two table" sap:VirtualizedContainerService.HintSize="592,1242.4" sap2010:WorkflowViewState.IdRef="Sequence_63">
+      <Sequence DisplayName="Compare Two table" sap:VirtualizedContainerService.HintSize="200,83.2" sap2010:WorkflowViewState.IdRef="Sequence_63">
         <Sequence.Variables>
           <Variable x:TypeArguments="sd:DataTable" Name="dt1" />
           <Variable x:TypeArguments="sd:DataTable" Name="dt2" />
