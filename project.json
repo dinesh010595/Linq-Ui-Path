@@ -5,6 +5,8 @@
   "dependencies": {
     "UiPath.Database.Activities": "[1.7.1]",
     "UiPath.Excel.Activities": "[2.10.3-preview]",
+    "UiPath.Form.Activities": "[2.0.2-preview]",
+    "UiPath.FormActivityLibrary.Contracts": "[2.0.2]",
     "UiPath.Mail.Activities": "[1.10.3-preview]",
     "UiPath.System.Activities": "[21.4.0-preview]",
     "UiPath.UIAutomation.Activities": "[21.4.1-preview]"
